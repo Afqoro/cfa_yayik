@@ -1,66 +1,31 @@
 proxies:
-  - name: 🟠 SG-JUP-CTB6 🟠
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: jupitervpn-tgfygh
-    skip-cert-verify: true
-    sni: sg6.jupitervpn.me
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: sg6.jupitervpn.me
-    udp: true
-  - name: 🟠 SG-JUP-CTB7 🟠
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: jupitervpn-dfgfc
-    skip-cert-verify: true
-    sni: sg7.jupitervpn.me
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: sg7.jupitervpn.me
-    udp: true
-  - name: 🟠 SG-JUP-CTB8 🟠
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: jupitervpn-ertdfg
-    skip-cert-verify: true
-    sni: sg8.jupitervpn.me
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: sg8.jupitervpn.me
-    udp: true
-  - name: 🟠 SG-JUP-CTB9 🟠
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: jupitervpn-dgfg
-    skip-cert-verify: true
-    sni: sg9.jupitervpn.me
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: sg9.jupitervpn.me
-    udp: true
-  - name: 🟠 SG-JUP-CTB10 🟠
-    server: cdn.onlymega.com
-    port: 443
-    type: trojan
-    password: jupitervpn-fdgre
-    skip-cert-verify: true
-    sni: sg10.jupitervpn.me
-    network: ws
-    ws-opts:
-      path: /trojan-go
-      headers:
-        Host: sg10.jupitervpn.me
-    udp: true
+- name: 🇸🇬 GR-CONTABO
+  server: sg-contabo1.service-bestvpn.xyz
+  port: 443
+  type: vmess
+  uuid: cc045af3-b6fa-4754-bbbf-b1efc626b4d6
+  alterId: 0
+  cipher: auto
+  network: grpc
+  tls: true
+  servername: spotify.com
+  skip-cert-verify: true
+  grpc-opts:
+    grpc-service-name: v2ray-vmess-grpc
+    
+- name: 🇸🇬 VMF-AMP
+  type: vmess
+  server: gamemax.prem.my.id
+  port: 443
+  uuid: b80925d6-40fa-4161-9e32-3550965527fd
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: sg-atha.v2-ray.com
+  network: ws
+  ws-opts:
+    path: /fastssh/ewrrt/62e5e779708e5/
+    headers:
+      Host: sg-atha.v2-ray.com    
