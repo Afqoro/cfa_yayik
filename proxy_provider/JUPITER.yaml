@@ -8,14 +8,14 @@ proxies:
   cipher: auto
   network: grpc
   tls: true
-  servername: spotify.com
+  servername: w8.web.whatsapp.com
   skip-cert-verify: true
   grpc-opts:
     grpc-service-name: v2ray-vmess-grpc
     
 - name: 🇸🇬 VMF-AMP
   type: vmess
-  server: gamemax.prem.my.id
+  server: cdn.onlymega.com
   port: 443
   uuid: b80925d6-40fa-4161-9e32-3550965527fd
   alterId: 0
