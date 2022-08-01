@@ -1,0 +1,66 @@
+proxies:
+  - name: 🟠 SG-JUP-CTB6 🟠
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: jupitervpn-tgfygh
+    skip-cert-verify: true
+    sni: sg6.jupitervpn.me
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg6.jupitervpn.me
+    udp: true
+  - name: 🟠 SG-JUP-CTB7 🟠
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: jupitervpn-dfgfc
+    skip-cert-verify: true
+    sni: sg7.jupitervpn.me
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg7.jupitervpn.me
+    udp: true
+  - name: 🟠 SG-JUP-CTB8 🟠
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: jupitervpn-ertdfg
+    skip-cert-verify: true
+    sni: sg8.jupitervpn.me
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg8.jupitervpn.me
+    udp: true
+  - name: 🟠 SG-JUP-CTB9 🟠
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: jupitervpn-dgfg
+    skip-cert-verify: true
+    sni: sg9.jupitervpn.me
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg9.jupitervpn.me
+    udp: true
+  - name: 🟠 SG-JUP-CTB10 🟠
+    server: cdn.onlymega.com
+    port: 443
+    type: trojan
+    password: jupitervpn-fdgre
+    skip-cert-verify: true
+    sni: sg10.jupitervpn.me
+    network: ws
+    ws-opts:
+      path: /trojan-go
+      headers:
+        Host: sg10.jupitervpn.me
+    udp: true
