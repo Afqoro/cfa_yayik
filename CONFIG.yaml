@@ -2,7 +2,7 @@ proxy-providers:
   PG_HOWDY:
     type: http
     path: "./proxy_provider/HOWDYID.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/cfa_yayik/main/proxy_provider/HOWDY.yaml
+    url: https://raw.githubusercontent.com/Afqoro/cfa_yayik/main/proxy_provider/HOWDY.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -10,7 +10,7 @@ proxy-providers:
   PG_JUPITER:
     type: http
     path: "./proxy_provider/HOWDYID.yaml"
-    url: https://raw.githubusercontent.com/Sribunga/cfa_yayik/main/proxy_provider/JUPITER.yaml
+    url: https://raw.githubusercontent.com/Afqoro/cfa_yayik/main/proxy_provider/JUPITER.yaml
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
