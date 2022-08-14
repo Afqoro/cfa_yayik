@@ -137,25 +137,25 @@ proxies:
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
 
-- name: ID-GO-UNI
+- name: ID-GO-HERZA
   server: cdn.onlymega.com
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 86d04ff0-1151-11ed-85f4-1239d0255272
+  password: e009cf10-1b8a-11ed-9f62-1239d0255272
   skip-cert-verify: true
-  sni: idtj-uninet.bonds.id
+  sni: idtj-herza.bonds.id
   network: ws
   ws-opts:
     path: /howdy
     headers:
-      Host: idtj-uninet.bonds.id
+      Host: idtj-herza.bonds.id
   udp: true
-- name: ID-GF-UNI
+- name: ID-GF-HERZA
   type: trojan
-  server: idtj-uninet.bonds.id
+  server: idtj-herza.bonds.id
   port: 443
-  password: 86d04ff0-1151-11ed-85f4-1239d0255272
+  password: e009cf10-1b8a-11ed-9f62-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
