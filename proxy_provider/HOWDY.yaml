@@ -4,7 +4,7 @@ proxies:
   server: api.fastworldpay.com
   port: 443
   type: trojan
-  password: a0610f40-1150-11ed-84bb-1239d0255272
+  password: 73f2bd60-2754-11ed-8d94-1239d0255272
   skip-cert-verify: true
   sni: sg1-trojan.bonds.id
   network: ws
@@ -17,7 +17,7 @@ proxies:
   type: trojan
   server: sg1-trojan.bonds.id
   port: 443
-  password: a0610f40-1150-11ed-84bb-1239d0255272
+  password: 73f2bd60-2754-11ed-8d94-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
@@ -27,7 +27,7 @@ proxies:
   server: api.fastworldpay.com
   port: 443
   type: trojan
-  password: ce7f5140-1151-11ed-8dec-1239d0255272
+  password: 08b0d3f0-2755-11ed-904d-1239d0255272
   skip-cert-verify: true
   sni: sg8-trojan.bonds.id
   network: ws
@@ -40,7 +40,7 @@ proxies:
   type: trojan
   server: sg8-trojan.bonds.id
   port: 443
-  password: ce7f5140-1151-11ed-8dec-1239d0255272
+  password: 08b0d3f0-2755-11ed-904d-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
@@ -50,7 +50,7 @@ proxies:
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 0215bd40-1151-11ed-972f-1239d0255272
+  password: 99216180-2754-11ed-b616-1239d0255272
   skip-cert-verify: true
   sni: sgovh-trojan.bonds.id
   network: ws
@@ -63,7 +63,7 @@ proxies:
   type: trojan
   server: sgovh-trojan.bonds.id
   port: 443
-  password: 0215bd40-1151-11ed-972f-1239d0255272
+  password: 99216180-2754-11ed-b616-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
@@ -73,7 +73,7 @@ proxies:
   server: api.fastworldpay.com
   port: 443
   type: trojan
-  password: a3e8cbc0-1151-11ed-aa7a-1239d0255272
+  password: c29e47c0-2754-11ed-b627-1239d0255272
   skip-cert-verify: true
   sni: sg2-trojan.bonds.id
   network: ws
@@ -86,7 +86,7 @@ proxies:
   type: trojan
   server: sg2-trojan.bonds.id
   port: 443
-  password: a3e8cbc0-1151-11ed-aa7a-1239d0255272
+  password: c29e47c0-2754-11ed-b627-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
@@ -96,7 +96,7 @@ proxies:
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 5deffa40-1151-11ed-8aca-1239d0255272
+  password: a9ae4fa0-2754-11ed-95d8-1239d0255272
   skip-cert-verify: true
   sni: id2-trojan.bonds.id
   network: ws
@@ -109,7 +109,7 @@ proxies:
   type: trojan
   server: id2-trojan.bonds.id
   port: 443
-  password: 5deffa40-1151-11ed-8aca-1239d0255272
+  password: a9ae4fa0-2754-11ed-95d8-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
@@ -119,7 +119,7 @@ proxies:
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 30cbc430-1151-11ed-b194-1239d0255272
+  password: dd4f5890-2754-11ed-8ef1-1239d0255272
   skip-cert-verify: true
   sni: id5-trojan.bonds.id
   network: ws
@@ -132,7 +132,7 @@ proxies:
   type: trojan
   server: id5-trojan.bonds.id
   port: 443
-  password: 30cbc430-1151-11ed-b194-1239d0255272
+  password: dd4f5890-2754-11ed-8ef1-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
@@ -142,7 +142,7 @@ proxies:
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: e009cf10-1b8a-11ed-9f62-1239d0255272
+  password: ee0de170-2754-11ed-888e-1239d0255272
   skip-cert-verify: true
   sni: idtj-herza.bonds.id
   network: ws
@@ -155,7 +155,7 @@ proxies:
   type: trojan
   server: idtj-herza.bonds.id
   port: 443
-  password: e009cf10-1b8a-11ed-9f62-1239d0255272
+  password: ee0de170-2754-11ed-888e-1239d0255272
   udp: true
   sni: w8.web.whatsapp.com
   skip-cert-verify: true
