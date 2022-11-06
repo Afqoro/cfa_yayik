@@ -110,7 +110,7 @@ proxies:
   skip-cert-verify: true
 
 - name: GO-HE3
-  server: zoom.us
+  server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
   password: 4ccb6480-5de6-11ed-9f10-1239d0255272
@@ -154,7 +154,7 @@ proxies:
   skip-cert-verify: true
 
 - name: ID-GO-BANT
-  server: zoom.us
+  server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
   password: 92511820-4488-11ed-b39e-1239d0255272
