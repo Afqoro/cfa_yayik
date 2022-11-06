@@ -1,10 +1,9 @@
 proxies:
 - name: GO-HE1
-  server: cdn.onlymega.com
   server: api.fastworldpay.com
   port: 443
   type: trojan
-  password: eb6fc720-4487-11ed-b53c-1239d0255272
+  password: dbd6b960-5de5-11ed-b7ba-1239d0255272
   skip-cert-verify: true
   sni: sg1-trojan.bonds.id
   network: ws
@@ -17,17 +16,16 @@ proxies:
   type: trojan
   server: sg1-trojan.bonds.id
   port: 443
-  password: eb6fc720-4487-11ed-b53c-1239d0255272
+  password: dbd6b960-5de5-11ed-b7ba-1239d0255272
   udp: true
-  sni: w8.web.whatsapp.com
+  sni: teams.microsoft.com
   skip-cert-verify: true
 
 - name: GO-Dualstack1
-  server: cdn.onlymega.com
-  server: api.fastworldpay.com
+  server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: c86216a0-4477-11ed-b87d-1239d0255272
+  password: a6e9b600-5de5-11ed-82e4-1239d0255272
   skip-cert-verify: true
   sni: sg-atha.bonds.id
   network: ws
@@ -40,17 +38,16 @@ proxies:
   type: trojan
   server: sg1-trojan.bonds.id
   port: 443
-  password: c86216a0-4477-11ed-b87d-1239d0255272
+  password: a6e9b600-5de5-11ed-82e4-1239d0255272
   udp: true
   sni: sg-atha.bonds.id
   skip-cert-verify: true
   
 - name: SG-GO-UPD
   server: cdn.onlymega.com
-  server: api.fastworldpay.com
   port: 443
   type: trojan
-  password: c0e85f20-4488-11ed-a4c9-1239d0255272
+  password: 04182d80-5de7-11ed-8062-1239d0255272
   skip-cert-verify: true
   sni: sg8-trojan.bonds.id
   network: ws
@@ -63,17 +60,16 @@ proxies:
   type: trojan
   server: sg8-trojan.bonds.id
   port: 443
-  password: c0e85f20-4488-11ed-a4c9-1239d0255272
+  password: 04182d80-5de7-11ed-8062-1239d0255272
   udp: true
-  sni: w8.web.whatsapp.com
+  sni: teams.microsoft.com
   skip-cert-verify: true
 
 - name: SG-GO-OVH
-  server: cdn.onlymega.com
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 76e25600-4488-11ed-b819-1239d0255272
+  password: f33da060-5de5-11ed-a779-1239d0255272
   skip-cert-verify: true
   sni: sgovh-trojan.bonds.id
   network: ws
@@ -86,17 +82,16 @@ proxies:
   type: trojan
   server: sgovh-trojan.bonds.id
   port: 443
-  password: 76e25600-4488-11ed-b819-1239d0255272
+  password: f33da060-5de5-11ed-a779-1239d0255272
   udp: true
-  sni: w8.web.whatsapp.com
+  sni: teams.microsoft.com
   skip-cert-verify: true
 
 - name: GO-HE2
-  server: cdn.onlymega.com
-  server: api.fastworldpay.com
+  server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 2b61a390-4488-11ed-a1e4-1239d0255272
+  password: c02d91d0-5de6-11ed-bc41-1239d0255272
   skip-cert-verify: true
   sni: sg2-trojan.bonds.id
   network: ws
@@ -109,17 +104,38 @@ proxies:
   type: trojan
   server: sg2-trojan.bonds.id
   port: 443
-  password: 2b61a390-4488-11ed-a1e4-1239d0255272
+  password: c02d91d0-5de6-11ed-bc41-1239d0255272
   udp: true
-  sni: w8.web.whatsapp.com
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+
+- name: GO-HE3
+  server: zoom.us
+  port: 443
+  type: trojan
+  password: 4ccb6480-5de6-11ed-9f10-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+- name: GF-HE3
+  type: trojan
+  server: sg3-trojan.bonds.id
+  port: 443
+  password: 4ccb6480-5de6-11ed-9f10-1239d0255272
+  udp: true
+  sni: teams.microsoft.com
   skip-cert-verify: true
 
 - name: GO-Dualstack2
-  server: cdn.onlymega.com
-  server: api.fastworldpay.com
+  server: zoom.us
   port: 443
   type: trojan
-  password: ee271d00-4488-11ed-b460-1239d0255272
+  password: 25937150-5de7-11ed-8803-1239d0255272
   skip-cert-verify: true
   sni: sg-atha.bonds.id
   network: ws
@@ -132,14 +148,13 @@ proxies:
   type: trojan
   server: sg1-trojan.bonds.id
   port: 443
-  password: ee271d00-4488-11ed-b460-1239d0255272
+  password: 25937150-5de7-11ed-8803-1239d0255272
   udp: true
   sni: sg-atha.bonds.id
   skip-cert-verify: true
 
 - name: ID-GO-BANT
-  server: cdn.onlymega.com
-  server: zendesk4.grabtaxi.com
+  server: zoom.us
   port: 443
   type: trojan
   password: 92511820-4488-11ed-b39e-1239d0255272
@@ -157,15 +172,14 @@ proxies:
   port: 443
   password: 92511820-4488-11ed-b39e-1239d0255272
   udp: true
-  sni: w8.web.whatsapp.com
+  sni: teams.microsoft.com
   skip-cert-verify: true
 
 - name: ID-GO-HERZA
-  server: cdn.onlymega.com
   server: zendesk4.grabtaxi.com
   port: 443
   type: trojan
-  password: 4ea54800-4488-11ed-bbc9-1239d0255272
+  password: d14b2d70-5de6-11ed-93b1-1239d0255272
   skip-cert-verify: true
   sni: idtj-herza.bonds.id
   network: ws
@@ -178,7 +192,7 @@ proxies:
   type: trojan
   server: idtj-herza.bonds.id
   port: 443
-  password: 4ea54800-4488-11ed-bbc9-1239d0255272
+  password: d14b2d70-5de6-11ed-93b1-1239d0255272
   udp: true
-  sni: w8.web.whatsapp.com
+  sni: teams.microsoft.com
   skip-cert-verify: true
