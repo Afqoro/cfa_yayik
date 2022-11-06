@@ -1,4 +1,48 @@
 proxies:
+- name: Nusa-Lftime1
+  server: zendesk4.grabtaxi.com
+  port: 443
+  type: trojan
+  password: yayikhp
+  skip-cert-verify: true
+  sni: nusa01.premiumvip.tech
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: nusa01.premiumvip.tech
+  udp: true
+- name: Nusa-Lftime2
+  type: trojan
+  server: nusa01.premiumvip.tech
+  port: 443
+  password: yayikhp
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+
+- name: AWS-Lftime1
+  server: zendesk4.grabtaxi.com
+  port: 443
+  type: trojan
+  password: umwah
+  skip-cert-verify: true
+  sni: amz01.premiumvip.tech
+  network: ws
+  ws-opts:
+    path: /trojan-go
+    headers:
+      Host: amz01.premiumvip.tech
+  udp: true
+- name: AWS-Lftime2
+  type: trojan
+  server: amz01.premiumvip.tech
+  port: 443
+  password: umwah
+  udp: true
+  sni: teams.microsoft.com
+  skip-cert-verify: true
+
 - name: GO-HE1
   server: api.fastworldpay.com
   port: 443
