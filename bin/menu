@@ -1,0 +1,76 @@
+#!/bin/bash
+clear
+m="\033[0;1;36m"
+y="\033[0;1;37m"
+yy="\033[0;1;32m"
+yl="\033[0;1;33m"
+wh="\033[0m"
+red='\e[1;31m'
+green='\e[0;32m'
+CYAN='\033[0;36m'
+echo -e "\E[44;1;39m                MENU UTAMA              \E[0m"
+echo -e "\E[0;41;36m          Script Mod By MahaVPN         \E[0m"
+echo -e "\e[32mक═══════════════क⊹⊱✫⊰⊹क════════════════क" | lolcat
+echo -e "$yy 1$y. XRAY TROJAN MENU$wh"
+echo -e "$yy 2$y. XRAY VMESS MENU$wh"
+echo -e "$yy 3$y. XRAY VLESS MENU$wh"
+echo -e "$yy 4$y. SSH & OpenVPN MENU  $wh"
+echo -e "\e[32m════════════════════════════════════════" | lolcat
+echo -e "$yy 5$y. PERBAIKI CERT$wh"
+echo -e "$yy 6$y. BERSIHKAN RAM$wh"
+echo -e "$yy 7$y. BERSIHKAN LOG$wh"
+echo -e "\e[32m════════════════════════════════════════" | lolcat
+echo -e "$yy 8$y. EXPIRED$wh"
+echo -e "$yy 9$y. HAPUS AKUN EXPIRED$wh"
+echo -e "$yy 10$y. BACKUP$wh"
+echo -e "\e[32m════════════════════════════════════════" | lolcat
+echo -e "$yy 11$y. Speedtest VPS$wh"
+echo -e "$yy 12$y. CHECK SERVICE$wh"
+echo -e "$yy 13$y. RESTART ALL SERVICE$wh"
+echo -e "\e[32mक═══════════════क⊹⊱✫⊰⊹क════════════════क" | lolcat
+read -p "Select From Options [ 1 - 19 ] : " menu
+case $menu in
+1)
+menu-trojan
+;;
+2)
+menu-vmess
+;;
+3)
+menu-vless
+;;
+4)
+menu-ssh
+;;
+5)
+cert
+;;
+6)
+clear-ram
+;;
+7)
+clear-log
+;;
+8)
+xp
+;;
+9)
+delexp
+;;
+10)
+backup
+;;
+11)
+speedtest
+;;
+12)
+cek-service
+;;
+13)
+restart
+;;
+*)
+clear
+menu
+;;
+esac
